@@ -172,3 +172,7 @@ cython_debug/
 
 .python-version
 .DS_store
+
+# Keep my Streamlit data folder tracked
+!streamlit_app/data/
+!streamlit_app/data/**
