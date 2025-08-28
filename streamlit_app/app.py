@@ -75,7 +75,7 @@ def load_job_postings():
 
 @st.cache_resource
 def load_fine_tuned_model():
-    fine_tuned_model_path = os.path.join('streamlit_app', 'data', 'fine_tuned_model')
+    fine_tuned_model_path = os.path.join('streamlit_app', 'data', 'fine-tuned-model')
     model = SentenceTransformer(fine_tuned_model_path, device=device)
     return model
 
